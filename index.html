@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Small Assignment</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .main {
+        background-color: rgb(250, 205, 3);
+        height: 400px;
+        width: 700px;
+        margin: auto;
+        position: relative;
+        margin-top: 10px;
+        border-top: 1px solid black;
+      }
+      .sub2 {
+        position: absolute;
+        height: 400px;
+        width: 715px;
+        margin-left: -8px;
+        background-color: rgb(204, 19, 19);
+        clip-path: polygon(
+          52% 84%,
+          67% 78%,
+          99% 77%,
+          99% 100%,
+          1% 100%,
+          1% 78%,
+          37% 78%
+        );
+        /* margin-top: 2px; */
+      }
+      .main .sub1 h3 {
+        color: white;
+        /* align-items: center; */
+        margin: auto;
+        font-weight: bold;
+        margin-top: 30px;
+        position: absolute;
+        margin-left: 310px;
+      }
+      .circle {
+        height: 80px;
+        width: 80px;
+        background-color: rgb(190, 172, 7);
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 320px;
+      }
+      .circle h1 {
+        padding-top: 20px;
+        padding-left: 27px;
+        font-weight: bolder;
+        color: rgb(95, 97, 3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="sub1">
+        <h3>Pinak Idea Lab</h3>
+        <div class="circle">
+          <h1>:)</h1>
+        </div>
+      </div>
+      <div class="sub2"></div>
+    </div>
+  </body>
+</html>
